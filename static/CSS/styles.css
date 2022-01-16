@@ -1,0 +1,9 @@
+#backTop{
+    position:fixed;
+    bottom: 3rem;
+    right: 1vh;
+    display:none;
+    border-radius:30px;
+    background-color: blue;
+    color:white;
+}
