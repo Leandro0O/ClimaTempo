@@ -1,3 +1,12 @@
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+.bg{
+    background-image: url(https://i.pinimg.com/originals/81/fb/69/81fb6926cfa1fb8c60dea92d642319b3.jpg);
+
+}
+
 #backTop{
     position:fixed;
     bottom: 3rem;
@@ -6,4 +15,8 @@
     border-radius:30px;
     background-color: blue;
     color:white;
+}
+
+.font_C{
+    font-family: 'Archivo Black', sans-serif;
 }

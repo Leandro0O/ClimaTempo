@@ -19,18 +19,20 @@ def form():
     tmin = int(float(urlJ["main"]["temp_min"]) - 273.15)
     tmax = int(float(urlJ["main"]["temp_max"]) - 273.15)
     sens = int(float(urlJ["main"]["feels_like"]) - 273.15)
-    umi = int(urlJ["main"]["feels_like"])
-    
+    umi = int(urlJ["main"]["humidity"])
+    icon = urlJ["weather"][0]["icon"]
+   
     return render_template("index.html",
                            cidade=request.form["cidade"].title(),
-                           desc=desc,
-                           temp=temp,
-                           tmin=tmin,
-                           tmax=tmax,
-                           sens=sens,
-                           umi=umi,
-                           hora = Tempo.hora())
-                           
+                           desc=desc.capitalize(),
+                           temp= f'{temp} °C',
+                           tmin= f'{tmin} °C',
+                           tmax= f'{tmax} °C',
+                           sens= f'{sens} °C',
+                           umi= f'{umi} %',
+                           hora=Tempo.hora(),
+                           icon=icon,
+                           )
 
 
 if __name__ == "__main__":
