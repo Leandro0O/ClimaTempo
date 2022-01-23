@@ -19,3 +19,4 @@ class Tempo:
     def hora():
         hora = datetime.datetime.now().time().strftime("%H : %M")
         return hora
+
