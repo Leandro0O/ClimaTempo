@@ -1,2 +1,19 @@
 # ClimaTempo
-<h2>App para previsão do tempo utilizando Python, HTML5 e CSS.</h2>
+
+<h4>Com este simples sistema você pode fazer a verificação do clima de qualquer cidade do mundo!</h4>
+
+<h4>O acesso pode ser feito atraves do link: https://climatempo0.herokuapp.com/</h4>
+
+<h4>O projeto foi desenvolvido utilizando</h4>
+
+<p>
+<ul>
+  <li>Python</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Flask</li>
+  <li>API: https://openweathermap.org/api</li>
+  
+  </u>
+
+</p>
