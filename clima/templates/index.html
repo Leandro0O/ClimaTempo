@@ -49,7 +49,11 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-9">
+                        {% if cidade %}
                         <h3 class="card-title text-center "> <strong>{{cidade|title}}</strong></h3>
+                        {% else%}
+                        <h3 class="card-title text-center "> <strong></strong></h3>
+                        {% endif %}
                     </div>
                     <div class="col">
                         <p class="card-text"> {{tempo.umi}}%<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-moisture" viewBox="0 0 16 16">
