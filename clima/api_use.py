@@ -9,7 +9,7 @@ class Tempo:
 
     def pesquisa(self):
         
-        token = "bdd183e21246b328fde15eb9a0cb0107"
+        token = "" # utilize o seu token aqui
         url_base = "http://api.openweathermap.org/data/2.5/weather?q={}&appid={}&lang=pt_br".format(
             self.cidade, token)
 
