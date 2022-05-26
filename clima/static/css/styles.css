@@ -3,7 +3,7 @@ body{
 }
 
 .bg{
-    background-image: url(https://i.pinimg.com/originals/81/fb/69/81fb6926cfa1fb8c60dea92d642319b3.jpg);
+    background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/flickr/14718892840_10bba8ff6d_o.jpg?fit=3774%2C2536&ssl=1);
 
 }
 
@@ -19,4 +19,13 @@ body{
 
 .font_C{
     font-family: 'Archivo Black', sans-serif;
+}
+
+#banner{
+    background-color: #007ed3;
+}
+
+footer{
+    background-color:#007ed3 ;
+    color: white;
 }
